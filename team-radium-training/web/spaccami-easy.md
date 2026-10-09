@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Section** | Web |
+| **Section** | Web Training |
 | **Category** | web |
 | **Solves** | 29 |
 
