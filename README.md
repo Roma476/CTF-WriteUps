@@ -1,9 +1,9 @@
 # CTF Write-ups
 
 <p align="center">
-  <img alt="write-ups" src="https://img.shields.io/badge/write--ups-55-9B59B6?style=flat-square">
-  <img alt="events" src="https://img.shields.io/badge/events-14-2ea043?style=flat-square">
-  <img alt="categories" src="https://img.shields.io/badge/categories-6-1f6feb?style=flat-square">
+  <img alt="write-ups" src="https://img.shields.io/badge/write--ups-128-9B59B6?style=flat-square">
+  <img alt="events" src="https://img.shields.io/badge/events-15-2ea043?style=flat-square">
+  <img alt="categories" src="https://img.shields.io/badge/categories-11-1f6feb?style=flat-square">
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
   Written by <a href="https://github.com/Roma476">Roma476</a>: 17-year-old CS student and cybersecurity enthusiast.
 </p>
 
-> 55 write-ups across web, binary/pwn, crypto, network, misc and OSINT, from OliCyber, m0leCon, ITSOS CTF and Team Radium training.
+> 128 write-ups from OliCyber, m0leCon, ITSOS CTF, Team Radium training and POCTF 2026, covering web, binary/pwn, crypto, network, misc, OSINT, exploitation, forensics, game hacking, reverse engineering and steganography.
 
 ## About
 
@@ -21,9 +21,9 @@ This repository is where I write down how I solved each challenge. I try to focu
 
 | | |
 |---|---|
-| Write-ups | 55 |
-| Events | 14 (2021-2026) |
-| Categories | web 25, binary/pwn 17, crypto 4, network 4, misc 3, OSINT 2 |
+| Write-ups | 128 |
+| Events | 15 (2021-2026) |
+| Categories | web 33, binary/pwn 17, crypto 14, misc 13, OSINT 10, exploitation 8, forensics 8, reverse engineering 8, steganography 8, game hacking 5, network 4 |
 | First blood | 1 - HTTP Cats (ITSOS CTF 2026) |
 
 ## Start here
@@ -33,14 +33,15 @@ If you only read a few, these are the ones I would pick:
 | Write-up | Event | Category | Why start here |
 |---|---|---|---|
 | [HTTP Cats](team-radium-training/web/http-cats.md) | ITSOS CTF 2026 | web | First blood; the solution is hidden in HTTP status codes. |
-| [mappa](olicyber/2026-territorial/binary/mappa.md) | OliCyber 2026 - Territorial selection | binary | Longest write-up: reversing a flag checker step by step. |
+| [mappa](olicyber/2026-territorial/binary/mappa.md) | OliCyber 2026 - Territorial selection | binary | Reversing a flag checker step by step. |
+| [Following the Money](POCTF%202026/osint/following-the-money/following-the-money.md) | POCTF 2026 | osint | Hardest OSINT: combining image metadata, astrometry and a financial trail to recover the location. |
 | [MIC](olicyber/2024-national/binary/MIC.md) | OliCyber 2024 - National final | binary | Binary exploitation at the national final, with mitigations enabled. |
 | [Age Calculator Pro](olicyber/2024-territorial/binary/age-calculator-pro.md) | OliCyber 2024 - Territorial selection | pwn | Format string leak plus ret2win: a clean first pwn chain. |
 | [Emergency Call](olicyber/olicyber-training/binary/emergency-call.md) | OliCyber Training | binary | Static binary, no libc, hand-written syscalls: a lesson in reading assembly. |
 
 ## Index
 
-Every write-up, grouped by year and event. The text in parentheses next to each link is the category and the number of solves from the original event.
+Every write-up, grouped by year and event. POCTF 2026 is grouped by wave, matching the challenge sections. The text in parentheses next to each link is the category and the number of solves from the original event.
 
 <table>
   <thead>
@@ -126,7 +127,7 @@ Every write-up, grouped by year and event. The text in parentheses next to each 
       <a href="olicyber/2025-territorial/crypto/insecure-passphrase-generator.md">Insecure Passphrase Generator</a> (crypto, 235)</td>
     </tr>
     <tr>
-      <td align="center" rowspan="2"><b>2026</b></td>
+      <td align="center" rowspan="3"><b>2026</b></td>
       <td>OliCyber 2026 - Territorial selection</td>
       <td><a href="olicyber/2026-territorial/binary/mappa.md">mappa</a> (binary, 54)<br>
       <a href="olicyber/2026-territorial/binary/trace-the-void.md">Trace the void</a> (binary, 93)<br>
@@ -135,6 +136,104 @@ Every write-up, grouped by year and event. The text in parentheses next to each 
     <tr>
       <td>ITSOS CTF 2026</td>
       <td><a href="team-radium-training/web/http-cats.md">HTTP Cats (hard)</a> (web, 1, first blood)</td>
+    </tr>
+    <tr>
+      <td>POCTF 2026</td>
+      <td>
+        <details>
+          <summary>Wave 1 — 8 writeups</summary>
+          <a href="POCTF%202026/crypto/letters-never-sent.md">Letters Never Sent</a> (crypto, 876)<br>
+          <a href="POCTF%202026/exploitation/read-me-my-fortune.md">Read Me My Fortune</a> (exploitation, 586)<br>
+          <a href="POCTF%202026/forensics/everything-left-open.md">Everything Left Open</a> (forensics, 801)<br>
+          <a href="POCTF%202026/misc/the-apparatus-invocation.md">The Apparatus, Invocation</a> (misc, 633)<br>
+          <a href="POCTF%202026/osint/where-the-light-fails-to-fall.md">Where the Light Fails to Fall</a> (osint, 516)<br>
+          <a href="POCTF%202026/reverse%20engineering/excavation.md">Excavation</a> (reverse engineering, 459)<br>
+          <a href="POCTF%202026/steganography/invisible-ink.md">Invisible Ink</a> (steganography, 583)<br>
+          <a href="POCTF%202026/web/the-shape-of-a-query.md">The Shape of a Query</a> (web, 764)
+        </details>
+        <details>
+          <summary>Wave 2 — 9 writeups</summary>
+          <a href="POCTF%202026/crypto/the-apparatus-rapport.md">The Apparatus, Rapport</a> (crypto, 487)<br>
+          <a href="POCTF%202026/exploitation/thirty-two-steps-down.md">Thirty-Two Steps Down</a> (exploitation, 383)<br>
+          <a href="POCTF%202026/forensics/a-cabin-worth.md">A Cabin Worth</a> (forensics, 434)<br>
+          <a href="POCTF%202026/game%20hacking/leap-of-faith.md">Leap of Faith</a> (game hacking, 352)<br>
+          <a href="POCTF%202026/misc/frequency-and-consequence.md">Frequency and Consequence</a> (misc, 373)<br>
+          <a href="POCTF%202026/osint/a-borrowed-name.md">A Borrowed Name</a> (osint, 467)<br>
+          <a href="POCTF%202026/reverse%20engineering/the-disassembled-mind.md">The Disassembled Mind</a> (reverse engineering, 405)<br>
+          <a href="POCTF%202026/steganography/commit-to-memory.md">Commit to Memory</a> (steganography, 376)<br>
+          <a href="POCTF%202026/web/poisoned-well.md">Poisoned Well</a> (web, 579)
+        </details>
+        <details>
+          <summary>Wave 3 — 8 writeups</summary>
+          <a href="POCTF%202026/crypto/the-consulting-room.md">The Consulting Room</a> (crypto, 296)<br>
+          <a href="POCTF%202026/exploitation/the-sandglass.md">The Sandglass</a> (exploitation, 342)<br>
+          <a href="POCTF%202026/forensics/what-goes-unwritten.md">What Goes Unwritten</a> (forensics, 313)<br>
+          <a href="POCTF%202026/misc/columns-of-holes.md">Columns of Holes</a> (misc, 261)<br>
+          <a href="POCTF%202026/osint/strings-attached.md">Strings Attached</a> (osint, 292)<br>
+          <a href="POCTF%202026/reverse%20engineering/panoptican.md">Panoptican</a> (reverse engineering, 333)<br>
+          <a href="POCTF%202026/steganography/the-apparatus-the-rapping.md">The Apparatus, The Rapping</a> (steganography, 311)<br>
+          <a href="POCTF%202026/web/no-structure-required.md">No Structure Required</a> (web, 340)
+        </details>
+        <details>
+          <summary>Wave 4 — 9 writeups</summary>
+          <a href="POCTF%202026/crypto/a-map-of-small-things.md">A Map of Small Things</a> (crypto, 320)<br>
+          <a href="POCTF%202026/exploitation/a-few-seconds-either-way.md">A Few Seconds Either Way</a> (exploitation, 239)<br>
+          <a href="POCTF%202026/forensics/a-quiet-home.md">A Quiet Home</a> (forensics, 281)<br>
+          <a href="POCTF%202026/game%20hacking/health-is-a-social-construct.md">Health Is a Social Construct</a> (game hacking, 206)<br>
+          <a href="POCTF%202026/misc/a-peculiar-game.md">A Peculiar Game</a> (misc, 215)<br>
+          <a href="POCTF%202026/osint/the-apparatus-apport.md">The Apparatus, Apport</a> (osint, 274)<br>
+          <a href="POCTF%202026/reverse%20engineering/an-invented-language.md">An Invented Language</a> (reverse engineering, 256)<br>
+          <a href="POCTF%202026/steganography/velocity.md">Velocity</a> (steganography, 257)<br>
+          <a href="POCTF%202026/web/the-logic-inside.md">The Logic Inside</a> (web, 262)
+        </details>
+        <details>
+          <summary>Wave 5 — 9 writeups</summary>
+          <a href="POCTF%202026/crypto/forty-measures-deep.md">Forty Measures Deep</a> (crypto, 168)<br>
+          <a href="POCTF%202026/exploitation/what-the-heap-remembers.md">What the Heap Remembers</a> (exploitation, 178)<br>
+          <a href="POCTF%202026/forensics/archaeology-of-mistakes.md">Archaeology of Mistakes</a> (forensics, 194)<br>
+          <a href="POCTF%202026/game%20hacking/the-house-always-misses.md">The House Always Misses</a> (game hacking, 141)<br>
+          <a href="POCTF%202026/misc/conditional-existence.md">Conditional Existence</a> (misc, 163)<br>
+          <a href="POCTF%202026/osint/the-preserved-moment.md">The Preserved Moment</a> (osint, 138)<br>
+          <a href="POCTF%202026/reverse%20engineering/the-oracles-weight.md">The Oracle's Weight</a> (reverse engineering, 116)<br>
+          <a href="POCTF%202026/steganography/the-hidden-path.md">The Hidden Path</a> (steganography, 160)<br>
+          <a href="POCTF%202026/web/the-apparatus-levitation.md">The Apparatus, Levitation</a> (web, 168)
+        </details>
+        <details>
+          <summary>Wave 6 — 8 writeups</summary>
+          <a href="POCTF%202026/crypto/noise-below-the-signal.md">Noise Below the Signal</a> (crypto, 195)<br>
+          <a href="POCTF%202026/exploitation/the-interpreters-margin.md">The Interpreter's Margin</a> (exploitation, 174)<br>
+          <a href="POCTF%202026/forensics/the-apparatus-ectograph.md">The Apparatus, Ectograph</a> (forensics, 183)<br>
+          <a href="POCTF%202026/misc/the-tower-of-babel.md">The Tower of Babel</a> (misc, 159)<br>
+          <a href="POCTF%202026/osint/what-was-exposed.md">What Was Exposed</a> (osint, 119)<br>
+          <a href="POCTF%202026/reverse%20engineering/the-oxidized-archive.md">The Oxidized Archive</a> (reverse engineering, 161)<br>
+          <a href="POCTF%202026/steganography/the-wrong-channel.md">The Wrong Channel</a> (steganography, 161)<br>
+          <a href="POCTF%202026/web/the-interior-route.md">The Interior Route</a> (web, 148)
+        </details>
+        <details>
+          <summary>Wave 7 — 9 writeups</summary>
+          <a href="POCTF%202026/crypto/the-notarys-seal.md">The Notary's Seal</a> (crypto, 150)<br>
+          <a href="POCTF%202026/exploitation/permission-slip.md">Permission Slip</a> (exploitation, 126)<br>
+          <a href="POCTF%202026/forensics/structural-failure.md">Structural Failure</a> (forensics, 136)<br>
+          <a href="POCTF%202026/game%20hacking/terms-and-condition-apply.md">Terms and Conditions Apply</a> (game hacking, 92)<br>
+          <a href="POCTF%202026/misc/leave-no-trace.md">Leave No Trace</a> (misc, 104)<br>
+          <a href="POCTF%202026/osint/the-view-from-above.md">The View from Above</a> (osint, 113)<br>
+          <a href="POCTF%202026/reverse%20engineering/the-apparatus-dissolution.md">The Apparatus, Dissolution</a> (reverse engineering, 122)<br>
+          <a href="POCTF%202026/steganography/the-geometry-of-secrets.md">The Geometry of Secrets</a> (steganography, 109)<br>
+          <a href="POCTF%202026/web/between-the-lines.md">Between the Lines</a> (web, 121)
+        </details>
+        <details>
+          <summary>Wave 8 — 9 writeups</summary>
+          <a href="POCTF%202026/crypto/the-cipher-in-the-stars.md">The Cipher in the Stars</a> (crypto, 73)<br>
+          <a href="POCTF%202026/exploitation/the-apparatus-manifestation.md">The Apparatus, Manifestation</a> (exploitation, 63)<br>
+          <a href="POCTF%202026/forensics/the-accused.md">The Accused</a> (forensics, 67)<br>
+          <a href="POCTF%202026/game%20hacking/client-side-truth.md">Client-Side Truth</a> (game hacking, 53)<br>
+          <a href="POCTF%202026/misc/the-ancient-instruction.md">The Ancient Instruction</a> (misc, 66)<br>
+          <a href="POCTF%202026/osint/following-the-money/following-the-money.md">Following the Money</a> (osint, 35)<br>
+          <a href="POCTF%202026/reverse%20engineering/against-the-clock.md">Against the Clock</a> (reverse engineering, 61)<br>
+          <a href="POCTF%202026/steganography/the-pattern-language.md">The Pattern Language</a> (steganography, 50)<br>
+          <a href="POCTF%202026/web/the-state-of-trust.md">The State of Trust</a> (web, 62)
+        </details>
+      </td>
     </tr>
     <tr>
       <td align="center" rowspan="2"><b>N/A</b></td>
@@ -157,6 +256,10 @@ Every write-up, grouped by year and event. The text in parentheses next to each 
       <td>Team Radium training</td>
       <td><a href="team-radium-training/binary/banca-benty.md">Banca Benty</a> (binary, 25)<br>
       <a href="team-radium-training/binary/binario-sus.md">Binario Sus</a> (binary, 8)<br>
+      <a href="team-radium-training/crypto/il-solito-cifrario.md">Substitution Cipher</a> (crypto, 14)<br>
+      <a href="team-radium-training/crypto/triumvirato.md">TRIUMVIRATO</a> (crypto, 6)<br>
+      <a href="team-radium-training/misc/bit.md">BIT</a> (misc, 3)<br>
+      <a href="team-radium-training/misc/sbsbsbsaskdjaksj-keamfefaf.md">sbsbsbsaskdjaksj keamfefaf</a> (misc, 16)<br>
       <a href="team-radium-training/web/includimi.md">Includimi</a> (web, 6)<br>
       <a href="team-radium-training/web/spaccami-easy.md">Spaccami Easy</a> (web, 29)</td>
     </tr>
@@ -180,7 +283,7 @@ olicyber/2024-national/binary/MIC.md
 team-radium-training/web/http-cats.md
 ```
 
-The repository contains write-ups only. No challenge binaries or files.
+The repository contains write-ups and small supporting assets. Original challenge binaries are not included.
 
 ## Write-up format
 
