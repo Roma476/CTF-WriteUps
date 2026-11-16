@@ -1,0 +1,9 @@
+capture_utc = 2024-10-12T21:18:38Z
+image_height_px = 1620
+vertical_fov_deg = 45.9
+horizon_row_px = 1443
+reference_row_px = 660.067301432
+altitude_deg = 22.1831
+gst_deg = 341.595636
+ra_deg = 9.5355366203
+longitude_deg = -27.939901
