@@ -1,7 +1,7 @@
 # CTF Write-ups
 
 <p align="center">
-  <img alt="write-ups" src="https://img.shields.io/badge/write--ups-128-9B59B6?style=flat-square">
+  <img alt="write-ups" src="https://img.shields.io/badge/write--ups-129-9B59B6?style=flat-square">
   <img alt="events" src="https://img.shields.io/badge/events-15-2ea043?style=flat-square">
   <img alt="categories" src="https://img.shields.io/badge/categories-11-1f6feb?style=flat-square">
 </p>
@@ -11,7 +11,7 @@
   Written by <a href="https://github.com/Roma476">Roma476</a>: 17-year-old CS student and cybersecurity enthusiast.
 </p>
 
-> 128 write-ups from OliCyber, m0leCon, ITSOS CTF, Team Radium training and POCTF 2026, covering web, binary/pwn, crypto, network, misc, OSINT, exploitation, forensics, game hacking, reverse engineering and steganography.
+> 129 write-ups from OliCyber, m0leCon, ITSOS CTF, Team Radium training and POCTF 2026, covering web, binary/pwn, crypto, network, misc, OSINT, exploitation, forensics, game hacking, reverse engineering and steganography.
 
 ## About
 
@@ -21,9 +21,9 @@ This repository is where I write down how I solved each challenge. I try to focu
 
 | | |
 |---|---|
-| Write-ups | 128 |
+| Write-ups | 129 |
 | Events | 15 (2021-2026) |
-| Categories | web 33, binary/pwn 17, crypto 14, misc 13, OSINT 10, exploitation 8, forensics 8, reverse engineering 8, steganography 8, game hacking 5, network 4 |
+| Categories | web 33, binary/pwn 17, crypto 14, misc 14, OSINT 10, exploitation 8, forensics 8, reverse engineering 8, steganography 8, game hacking 5, network 4 |
 | First blood | 1 - HTTP Cats (ITSOS CTF 2026) |
 
 ## Start here
@@ -41,7 +41,7 @@ If you only read a few, these are the ones I would pick:
 
 ## Index
 
-Every write-up, grouped by year and event. POCTF 2026 is grouped by wave, matching the challenge sections. The text in parentheses next to each link is the category and the number of solves from the original event.
+Every write-up, grouped by year and event. POCTF 2026 is grouped by wave, matching the challenge sections, with the hidden bonus challenge at the end. The text in parentheses next to each link is the category and the number of solves from the original event.
 
 <table>
   <thead>
@@ -232,6 +232,10 @@ Every write-up, grouped by year and event. POCTF 2026 is grouped by wave, matchi
           <a href="POCTF%202026/reverse%20engineering/against-the-clock.md">Against the Clock</a> (reverse engineering, 61)<br>
           <a href="POCTF%202026/steganography/the-pattern-language.md">The Pattern Language</a> (steganography, 50)<br>
           <a href="POCTF%202026/web/the-state-of-trust.md">The State of Trust</a> (web, 62)
+        </details>
+        <details>
+          <summary>Hidden — 1 writeup</summary>
+          <a href="POCTF%202026/misc/ghostbuster.md">Ghostbuster</a> (misc, hidden bonus)
         </details>
       </td>
     </tr>
